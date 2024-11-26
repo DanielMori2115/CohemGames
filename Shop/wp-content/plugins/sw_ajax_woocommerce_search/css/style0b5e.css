@@ -1,0 +1,189 @@
+.swg-search button, .swg-search input, .swg-search textarea{
+	margin: 0;
+}
+.swg-search form{
+	display: block;
+	position: relative;
+	z-index: 3;
+}
+
+.swg-search .search-wrapper{
+	display: flex;
+	overflow: hidden;
+}
+.swg-search .search-wrapper .cat-wrapper select{
+	max-width: 100%;
+}
+.swg-search .search-wrapper .autosearch-input{
+	margin: 0;
+    border: 0 solid #fff;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
+    background: none;
+    line-height: 1;
+    min-width: 0;
+    font-size: 15px;
+    -webkit-appearance: none;
+}
+.swg-search .search-wrapper .button-search-pro{
+	margin: 0;
+	border: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.swg-search .search-wrapper .button-search-pro.loading{
+	height: auto;
+}
+.swg-search .search-wrapper .button-search-pro.loading svg, .swg-search .search-wrapper .button-search-pro.loading i{
+	display: none;
+}
+.swg-search .search-wrapper .button-search-pro.loading:before{
+	background-size: 24px;
+	background-color: transparent;
+}
+.swg-search .search-wrapper .cat-wrapper select, .swg-search .search-wrapper .content-search .autosearch-input{
+	height: 100%;
+}
+.swg-search form .content-search{
+	position: absolute;
+	top: 105%;
+	left: 0;
+	right: 0;
+	background: #fff;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.15);
+}
+.swg-search form .content-search:before{
+	content: '';
+	display: block;
+	position: absolute;
+	top: -20px;
+	left: 0;
+	width: 100%;
+	height: 20px;
+}
+.swg-search form .content-search .search-append .autocomplete-suggestions{
+	padding: 20px 15px;
+}
+.swg-search form .content-search .search-append .autocomplete-suggestion{
+	clear: both;
+	margin-bottom: 15px;
+}
+.swg-search form .content-search .search-append .autocomplete-suggestion:last-child{
+	margin: 0;	
+}
+.swg-search form .content-search .search-append .autocomplete-suggestion .media-left{
+	display: flex;
+	align-items: center;
+	text-align: start;
+}
+.swg-search form .content-search .search-append .autocomplete-suggestion .media-left img{
+	margin-right: 10px;
+}
+.swg-search form .content-search .search-append .autocomplete-suggestion .media-left .media-body > span{
+	font-size: 16px;
+	display: block;
+	margin-bottom: 5px;
+}
+.swg-search form .content-search .search-append .autocomplete-suggestion .media-left p.price{
+	font-size: 16px;
+}
+
+.swg-responsive-search-layout-2 .swg-search .popup-search{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	display: none;
+}
+.swg-responsive-search-layout-2 .swg-search .popup-search.active{
+	display: block;
+}
+.swg-search .popup-search:before{
+	content: '';
+	display: block;
+	background: rgba(0,0,0, 0.3);
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.swg-responsive-search-layout-2 .swg-search .popup-search.active:before{
+	display: block;
+}
+.swg-responsive-search-layout-2 .swg-search .popup-search .popup-search-wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	padding: 20px 0;
+}
+.swg-search .popup-search .search-close{
+	color: #fff;
+	font-size: 18px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.swg-search .search-button-toggle, .swg-search .search-close{
+	display: none;
+}
+.swg-responsive-search-layout-2 .search-button-toggle, .swg-responsive-search-layout-2  .swg-search .search-close{
+	display: block;
+}
+@media (max-width: 1024px) {
+	.swg-responsive-search-tablet .search-button-toggle, .swg-responsive-search-tablet  .swg-search .search-close{
+		display: block;
+	}
+	.swg-responsive-search-tablet .swg-search .popup-search{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 9999;
+		display: none;
+	}
+	.swg-responsive-search-tablet .swg-search .popup-search.active{
+		display: block;
+	}
+	.swg-responsive-search-tablet .swg-search .popup-search .popup-search-wrapper{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+	}
+	.swg-responsive-search-tablet .swg-search .popup-search.active:before{
+		display: block;
+	}
+}
+
+@media (max-width: 767px) {
+	.swg-responsive-search-mobile .search-button-toggle, .swg-responsive-search-tablet  .swg-search .search-close{
+		display: block;
+	}
+	.swg-responsive-search-mobile .swg-search .popup-search{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 9999;
+		display: none;
+	}
+	.swg-responsive-search-mobile .swg-search .popup-search.active{
+		display: block;
+	}
+	.swg-responsive-search-mobile .swg-search .popup-search .popup-search-wrapper{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+	}
+	.swg-responsive-search-mobile .swg-search .popup-search.active:before{
+		display: block;
+	}
+}
