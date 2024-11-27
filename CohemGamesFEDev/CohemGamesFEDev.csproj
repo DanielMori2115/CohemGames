@@ -1846,24 +1846,60 @@
     <None Include="wwwroot\js\zoom.js" />
     <None Include="wwwroot\js\password-strength-meter.min0b5e.js" />
     <None Include="wwwroot\js\user-profile.min0b5e.js" />
-    <None Include="wwwroot\lib\plugins\elementor\assets\css\conditionals\apple-webkit.min57a7.css" />
-    <None Include="wwwroot\lib\plugins\elementor\assets\css\conditionals\e-swiper.min57a7.css" />
-    <None Include="wwwroot\lib\plugins\elementor\assets\css\frontend.min57a7.css" />
-    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-accordion.min57a7.css" />
-    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-counter.min57a7.css" />
-    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-google_maps.min57a7.css" />
-    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-heading.min57a7.css" />
-    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-icon-box.min57a7.css" />
-    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-icon-list.min57a7.css" />
-    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-image-box.min57a7.css" />
-    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-image-carousel.min57a7.css" />
-    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-image.min57a7.css" />
-    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-social-icons.min57a7.css" />
-    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-text-editor.min57a7.css" />
-    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-video.min57a7.css" />
-    <None Include="wwwroot\lib\plugins\elementor\assets\js\frontend-modules.min57a7.js" />
-    <None Include="wwwroot\lib\plugins\elementor\assets\js\frontend.min57a7.js" />
-    <None Include="wwwroot\lib\plugins\elementor\assets\js\webpack.runtime.min57a7.js" />
+    <None Include="wwwroot\lib\plugins\elementor\assets\css\conditionals\apple-webkit.min57a7.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\lib\plugins\elementor\assets\css\conditionals\e-swiper.min57a7.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\lib\plugins\elementor\assets\css\frontend.min57a7.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-accordion.min57a7.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-counter.min57a7.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-google_maps.min57a7.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-heading.min57a7.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-icon-box.min57a7.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-icon-list.min57a7.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-image-box.min57a7.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-image-carousel.min57a7.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-image.min57a7.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-social-icons.min57a7.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-text-editor.min57a7.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\lib\plugins\elementor\assets\css\widget-video.min57a7.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="wwwroot\lib\plugins\elementor\assets\js\frontend-modules.min57a7.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wwwroot\lib\plugins\elementor\assets\js\frontend.min57a7.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wwwroot\lib\plugins\elementor\assets\js\webpack.runtime.min57a7.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <None Include="wwwroot\lib\plugins\elementor\assets\lib\animations\styles\e-animation-float.min57a7.css" />
     <None Include="wwwroot\lib\plugins\elementor\assets\lib\animations\styles\fadeIn.min57a7.css" />
     <None Include="wwwroot\lib\plugins\elementor\assets\lib\animations\styles\fadeInDown.min57a7.css" />
@@ -2354,6 +2390,17 @@
     <None Include="wwwroot\lib\js\underscore.min3ab8.js" />
     <None Include="wwwroot\lib\js\wp-util.min0b5e.js" />
     <None Include="wwwroot\lib\js\zxcvbn-async.min5152.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\animations\styles\" />
+    <Folder Include="wwwroot\lib\font-awesome\css\" />
+    <Folder Include="wwwroot\lib\font-awesome\js\" />
+    <Folder Include="wwwroot\lib\swiper\v8\css\" />
   </ItemGroup>
 
 </Project>
