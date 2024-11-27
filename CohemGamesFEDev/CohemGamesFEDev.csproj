@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -2397,6 +2397,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\css\dist\block-library\" />
+    <Folder Include="wwwroot\js\dist\vendor\" />
+    <Folder Include="wwwroot\js\jquery\ui\" />
     <Folder Include="wwwroot\lib\animations\styles\" />
     <Folder Include="wwwroot\lib\font-awesome\css\" />
     <Folder Include="wwwroot\lib\font-awesome\js\" />
