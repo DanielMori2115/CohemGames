@@ -15721,7 +15721,7 @@ blockquote .text {
     line-height: 96px;
   }
 }
-@media (min-width: 1150px) {
+@media (min-width: 500px) {
   .wrap-lookbook-hover .bundle-pin-item {
     cursor: pointer;
   }
@@ -17067,7 +17067,7 @@ blockquote .text {
   }
 
   .header-style-2 .header-bottom .box-navigation {
-    display: none;
+    display: block;
   }
 
   .header-style-3 .box-navigation {
@@ -19504,7 +19504,7 @@ blockquote .text {
     animation: slide-har-reverse 40s linear infinite !important;
   }
 }
-@media (min-width: 1150px) {
+@media (min-width: 500px) {
   .rtl .tf-ourstore-content {
     padding-right: 93px;
     padding-left: 20px;
