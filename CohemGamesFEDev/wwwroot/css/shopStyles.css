@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .elementor-18530 .elementor-element.elementor-element-816b09b:not(.elementor-motion-effects-element-type-background), .elementor-18530 .elementor-element.elementor-element-816b09b > .elementor-motion-effects-container > .elementor-motion-effects-layer {
-    background-color: #018C87;
+    background-color: black;
 }
 
 .elementor-18530 .elementor-element.elementor-element-816b09b, .elementor-18530 .elementor-element.elementor-element-816b09b::before {
@@ -406,7 +406,7 @@ body.rtl .elementor-18530 .elementor-element.elementor-element-f1eaa19 .swg-sear
 }
 
     .elementor-18530 .elementor-element.elementor-element-6a42a3a:not(.elementor-motion-effects-element-type-background), .elementor-18530 .elementor-element.elementor-element-6a42a3a > .elementor-motion-effects-container > .elementor-motion-effects-layer {
-        background-color: #ffc107;
+        background-color: #f9f9f9;
     }
 
         .elementor-18530 .elementor-element.elementor-element-6a42a3a::before, .elementor-18530 .elementor-element.elementor-element-6a42a3a > .elementor-background-video-container::before, .elementor-18530 .elementor-element.elementor-element-6a42a3a > .e-con-inner > .elementor-background-video-container::before, .elementor-18530 .elementor-element.elementor-element-6a42a3a > .elementor-background-slideshow::before, .elementor-18530 .elementor-element.elementor-element-6a42a3a > .e-con-inner > .elementor-background-slideshow::before, .elementor-18530 .elementor-element.elementor-element-6a42a3a > .elementor-motion-effects-container > .elementor-motion-effects-layer::before {
