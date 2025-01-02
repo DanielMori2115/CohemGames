@@ -1,4 +1,4 @@
-namespace CohemGamesFEDev.Models
+namespace CohemGamesFEDev.Dtos
 {
     public class ErrorViewModel
     {

@@ -1,6 +1,6 @@
-using CohemGamesFEDev.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using CohemGamesFEDev.Dtos;
 
 namespace CohemGamesFEDev.Controllers
 {
