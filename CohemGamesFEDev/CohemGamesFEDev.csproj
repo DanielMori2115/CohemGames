@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
@@ -528,6 +528,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Dtos\ViewModels\" />
     <Folder Include="wwwroot\css\dist\block-library\" />
     <Folder Include="wwwroot\js\dist\vendor\" />
     <Folder Include="wwwroot\js\jquery\ui\" />
