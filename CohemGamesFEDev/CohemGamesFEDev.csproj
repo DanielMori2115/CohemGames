@@ -7,6 +7,33 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\css\administration\blog.css" />
+    <Content Remove="wwwroot\css\administration\chatapp.css" />
+    <Content Remove="wwwroot\css\administration\ecommerce.css" />
+    <Content Remove="wwwroot\css\administration\h-menu.css" />
+    <Content Remove="wwwroot\css\administration\inbox.css" />
+    <Content Remove="wwwroot\css\administration\main.css" />
+    <Content Remove="wwwroot\images\administration\logo-icon.svg" />
+    <Content Remove="wwwroot\js\administration\apexcharts.bundle.js" />
+    <Content Remove="wwwroot\js\administration\c3.bundle.js" />
+    <Content Remove="wwwroot\js\administration\chartist.bundle.js" />
+    <Content Remove="wwwroot\js\administration\datatablescripts.bundle.js" />
+    <Content Remove="wwwroot\js\administration\easypiechart.bundle.js" />
+    <Content Remove="wwwroot\js\administration\flotscripts.bundle.js" />
+    <Content Remove="wwwroot\js\administration\fullcalendarscripts.bundle.js" />
+    <Content Remove="wwwroot\js\administration\jvectormap.bundle.js" />
+    <Content Remove="wwwroot\js\administration\knob.bundle.js" />
+    <Content Remove="wwwroot\js\administration\libscripts.bundle.js" />
+    <Content Remove="wwwroot\js\administration\mainscripts.bundle.js" />
+    <Content Remove="wwwroot\js\administration\morrisscripts.bundle.js" />
+    <Content Remove="wwwroot\js\administration\vendorscripts.bundle.js" />
+    <Content Remove="wwwroot\lib\font-awesome\font-awesome.min.css" />
+    <Content Remove="wwwroot\lib\fonts\fontawesome-webfont3e6e.eot" />
+    <Content Remove="wwwroot\lib\fonts\fontawesome-webfont3e6e.svg" />
+    <Content Remove="wwwroot\lib\fonts\fontawesome-webfont3e6e.ttf" />
+    <Content Remove="wwwroot\lib\fonts\fontawesome-webfont3e6e.woff" />
+    <Content Remove="wwwroot\lib\fonts\fontawesome-webfont3e6e.woff2" />
+    <Content Remove="wwwroot\lib\fonts\fontawesome-webfontd41d.eot" />
     <Content Remove="wwwroot\lib\plugins\elementor\assets\css\conditionals\apple-webkit.min57a7.css" />
     <Content Remove="wwwroot\lib\plugins\elementor\assets\css\conditionals\e-swiper.min57a7.css" />
     <Content Remove="wwwroot\lib\plugins\elementor\assets\css\frontend.min57a7.css" />
