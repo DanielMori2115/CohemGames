@@ -1,3 +1,4 @@
+@using System.Web.Optimization
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
@@ -23,7 +24,7 @@
     <link rel="apple-touch-icon-precomposed" href="~/images/logo/favicon.png" asp-append-version="true">
 </head>
 
-<body class="preload-wrapper color-primary-4">
+<body class="preload-wrapper color-primary-4" id="index">
     <div class="preload preload-container">
         <div class="preload-logo">
             <div class="spinner"></div>
@@ -1101,8 +1102,6 @@
     </div>
     <!-- /shoppingCart -->
     <!-- Javascript -->
-    <script type="text/javascript" src="~/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="~/js/jquery.min.js"></script>
     <script type="text/javascript" src="~/js/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="~/js/carousel.js"></script>
     <script type="text/javascript" src="~/js/count-down.js"></script>
@@ -1115,6 +1114,9 @@
 
 </body>
 
+<!-- Importaciones del maestro -->
+<script src="https://unpkg.com/vue-multiselect@2.1.0"></script>
+<link rel="stylesheet" href="https://unpkg.com/vue-multiselect@2.1.0/dist/vue-multiselect.min.css">
 
-<!-- Mirrored from themesflat.co/html/ecomus/home-kitchen-wear.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Nov 2024 08:44:58 GMT -->
+<script src="~/customScripts/application/components/HomeComponent.js"></script>
 </html>
