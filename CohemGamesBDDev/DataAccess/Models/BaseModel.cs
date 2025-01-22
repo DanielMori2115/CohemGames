@@ -1,4 +1,4 @@
-﻿namespace CohemGamesBDDev.Dtos.Models
+﻿namespace CohemGamesBDDev.DataAccess.models
 {
     public class BaseModel
     {

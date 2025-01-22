@@ -1,6 +1,6 @@
-﻿namespace CohemGamesBDDev.Dtos.Models
+﻿namespace CohemGamesFEDev.Dtos.ViewModels
 {
-    public class Categoria : BaseModel
+    public class CategoriaViewModel : BaseModelViewModel
     {
         public int Codigo { get; set; }
         public string Descripcion { get; set; }
