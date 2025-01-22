@@ -8,5 +8,7 @@
         public float Precio { get; set; }
         public int CodigoCategoria { get; set; }
         public int Stock { get; set; }
+        public Categoria Categoria { get; set; }
+        public List<ProductoPromocion> ProductosPromocion { get; set; } = new();
     }
 }

@@ -72,6 +72,9 @@ create table Promocion(
 	Codigo int primary key identity(1,1) not null,
 	Descripcion varchar(200) not null,
 	DescuentoPorcentaje float not null default 0,
+	FechaInicio date not null,
+	FechaFin date null,
+	FechaActualizacion date null,
 	FechaRegistro datetime not null default getdate(),
 	FechaActualizacion date null,
 	CodigoUsuarioCreador int not null foreign key REFERENCES [dbo].[Usuario](Codigo),
@@ -79,7 +82,7 @@ create table Promocion(
 );
 
 --ALTER TABLE Promocion
---ADD DescuentoPorcentaje float not null default 0
+--ADD FechaFin date null 
 
 
 create table ProductoPromocion(
