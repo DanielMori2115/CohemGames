@@ -12,13 +12,14 @@ create table Usuario(
 	FechaRegistro datetime not null default getdate(),
 	FechaActualizacion date null,
 	CodigoUsuarioCreador int not null,
+	CodigoUsuarioActualizacion int not null,
 	Documento varchar(15) not null,
 	CodigoTipoDocumento int  not null foreign key REFERENCES [dbo].TipoDocumento(Codigo),
 	Estado bit not null default 0
 );
 
 --ALTER TABLE Usuario
---ADD Estado bit default 0;
+--ADD CodigoUsuarioActualizacion int null
 
 --ALTER TABLE Usuario
 --alter column Estado bit not null 
